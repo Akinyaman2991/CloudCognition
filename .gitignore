@@ -1,0 +1,65 @@
+# Python & Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.noserc
+nosetests.xml
+coverage.xml
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Terraform Local State & Directories
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/*.tfvars
+terraform/*.tfvars.json
+
+# IDEs & Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AWS Serverless & SAM Local artifacts
+.aws-sam/
+.serverless/
+
+# OS Specific
+.DS_Store
+Thumbs.db
